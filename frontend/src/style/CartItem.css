@@ -106,3 +106,60 @@
     cursor: pointer;
 }
 
+@media(max-width: 1280px){
+    .cartitems{
+        margin: 60px 50px;
+    }
+    .ci-format-main{
+        grid-template-columns: 0.5fr 3fr 0.5fr 0.5fr 0.5fr;
+        gap: 20px;
+        padding: 15px 0px;
+        font-size: 15px;
+    }
+    .carticon-product-icon{
+        height: 50px;
+    }
+    .ci-remove-icon{
+        margin: auto;
+    }
+    .ci-quantity{
+        width: 40px;
+        height: 30px;
+    }
+    .ci-down{
+        margin: 80px 0px;
+        flex-direction: column;
+        gap: 80px;
+    }
+    .ci-total{
+        margin: 0;
+    }
+    .ci-total button{
+        max-width: 200px;
+        height: 45px;
+        font-size: 13px;
+    }
+    .ci-promobox{
+        width: auto;
+        max-width: 500px;
+    }
+    .ci-promobox input{
+        width: 100%;
+    }
+    .ci-promobox button{
+        width: 120px;
+        margin-left: -125px;
+    }
+}
+
+@media(max-width: 500px){
+    .ci-format-main{
+        display: none;
+        grid-template-columns: 0.5fr, 3fr, 0.5fr;
+        gap: 10px;
+    }
+    .ci-format{
+        display: grid;
+    }
+}
+

@@ -92,3 +92,48 @@
 .pd-right-category span{
     font-weight: 600;
 }
+
+@media (max-width: 1280px){
+    .pd{
+        margin: 0px 60px;
+    }
+    .pd-left{
+        gap: 10px;
+    }
+    .pd-img-list{
+        gap: 10px;
+    }
+    .pd-img-list img{
+        height: 120px;
+    }
+    .pd-main-img{
+        width: auto;
+        height: 510px;
+    }
+    .pd-right{
+        margin: 0px 30px;
+    }
+    .pd-right-stars{
+        gap: 3px;
+        font-size: 13px;
+    }
+    .pd-right-prices{
+        margin: 10px 0px;
+        font-size: 18px;
+    }
+    .pd-right-size h1{
+        padding: 10px 20px;
+    }
+    .pd-right-sizes div{
+        padding: 14px 20px;
+    }
+    .pd-right button{
+        width: 150px;
+        padding: 15px 0px;
+        margin-bottom: 20px;
+    }
+    .pd-right-category{
+        font-size: 16px;
+    }
+
+}
