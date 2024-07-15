@@ -38,7 +38,6 @@ const AddProduct = () => {
       });
 
       if (!response.ok) {
-        // If the response is not OK, throw an error with the status
         throw new Error(`HTTP error! status: ${response.status}`);
       }
 
